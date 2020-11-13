@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: dev
+#日志输出
+logging:
+  level:
+    org.springframework.web: info
+    #com.asx717.openapi.dao: debug       #指定包日志输出，实现mybatis输出日志
+  file:
+    path: logs/springcloud_stu
